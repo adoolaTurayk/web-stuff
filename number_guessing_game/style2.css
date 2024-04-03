@@ -1,0 +1,57 @@
+body{
+    background: rgb(216, 216, 216);
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#jstest2Header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+#container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    max-width: 350px;
+    height: 290px;
+    box-shadow: 5px 5px 2.5px rgb(141, 132, 132);
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    background-color: white;
+}
+button{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+button:hover{
+    background-color: rgb(88, 88, 88);
+    color: white;
+}
+button:active{
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+button:disabled{
+    background-color: rgb(121, 121, 121);
+    color: rgb(155, 155, 155);
+}
+input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*visibility: hidden; 
+display: none; turn text invisible*/

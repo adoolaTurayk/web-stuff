@@ -1,0 +1,79 @@
+body{
+    background: black;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#p1{
+    font-family: "Comic Neue", sans-serif; 
+    font-weight: bold;
+    text-decoration: dotted underline;
+    border-style: solid;
+    background: linear-gradient(to left, blue, white);
+    box-shadow: 5px 5px 5px black;
+}
+#p2{
+    font-family: "Alegreya SC", sans-serif; 
+    font-style: italic;
+    text-decoration: double underline;
+    border-style: dashed;
+    background: linear-gradient(to left, blue, white);
+    box-shadow: 5px 5px 5px black;
+}
+#p3{
+    font-family: "Madimi One", sans-serif; 
+    font-style: oblique;
+    text-decoration: line-through;
+    border-style:groove;
+    background: linear-gradient(to left, blue, white);
+    box-shadow: 5px 5px 5px black;
+}
+#title{
+    font-family: "Rubik", sans-serif; 
+    text-decoration: underline;
+    background: linear-gradient(to left, blue, white);
+    border-style: solid;
+    box-shadow: 5px 5px 5px black;
+}
+#header{
+    font-family: "Rubik", sans-serif; 
+    background: linear-gradient(to left, blue, white);
+    border-style: solid;
+    box-shadow: 5px 5px 5px black;
+}
+#fun{
+    border-style: outset;
+    border-width: 5px;
+    border-color: chartreuse;
+    border-radius: 10px;
+    padding: 5px;
+    background: linear-gradient(to left,blue, white);
+}
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: linear-gradient(green, white);
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: linear-gradient(skyblue, white);
+}
+.arithNum{
+    width: 50px;
+}
+#operSelect{
+    width: 30px;
+}
+#jstest2Header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+/*visibility: hidden; 
+display: none; turn text invisible*/

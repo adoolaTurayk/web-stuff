@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(47, 79, 223);
+}
+#container{
+    font-family: 'Comic Neue', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    max-width: 250px;
+    height: auto;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    border-style: outset;
+    border-color: rgb(0, 238, 255);
+    border-radius: 5px;
+    border-width: 0px;
+    text-align: center;
+    background-color: rgb(113, 234, 255);
+}
+#rollDice{
+    font-weight: bold;
+    font-family: 'Comic Neue', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgb(0, 162, 255);
+    cursor: pointer;
+}
+#rollDice:hover{
+    background-color: rgb(0, 111, 175);
+    color: white;
+}
+#rollDice:active{
+    background-color: rgb(0, 63, 100);
+    color: white;
+}
+input{
+    width: 50px;
+    text-align: center;
+}
+#diceResult{
+    margin: 5px;
+}
+#diceImages_img{
+    width: 150px;
+    margin: 5px;
+}
