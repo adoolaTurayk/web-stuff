@@ -1,11 +1,15 @@
 setInterval(() => {
     let currentTime = new Date();
+    let hours = currentTime.getHours()
+    const meridiem = hours >= 12 ? "PM" : "AM"
+    hours = hours % 12 || 12;
+    hours = hours.toString().padStart(2, 0)
     let currentTimeOnly  = (`${currentTime.getDate()}/${currentTime.getMonth() + 1}/${currentTime.getFullYear()}`);
-    let currentDate = (`${currentTime.getHours()}:${currentTime.getMinutes()}:${currentTime.getSeconds()}`);
+    let currentDate = (`${hours}:${currentTime.getMinutes().toString().padStart(2, 0)}:${currentTime.getSeconds().toString().padStart(2, 0)} ${meridiem}`);
     let currentDayOfWeek = currentTime.getDay();
 
-    document.getElementById("time").textContent = currentTimeOnly;
-    document.getElementById("date").textContent = currentDate;
+    document.getElementById("date").textContent = currentTimeOnly;
+    document.getElementById("time").textContent = currentDate;
     switch(currentDayOfWeek){
         case 0:
             document.getElementById("day").textContent = "Sunday";
