@@ -4,32 +4,32 @@ setInterval(() => {
     let currentDate = (`${currentTime.getHours()}:${currentTime.getMinutes()}:${currentTime.getSeconds()}`);
     let currentDayOfWeek = currentTime.getDay();
 
-    document.getElementById("time").innerHTML = currentTimeOnly;
-    document.getElementById("date").innerHTML = currentDate;
+    document.getElementById("time").textContent = currentTimeOnly;
+    document.getElementById("date").textContent = currentDate;
     switch(currentDayOfWeek){
         case 0:
-            document.getElementById("day").innerHTML = "Sunday";
+            document.getElementById("day").textContent = "Sunday";
             break;
         case 1:
-            document.getElementById("day").innerHTML = "Monday";
+            document.getElementById("day").textContent = "Monday";
             break;
         case 2:
-            document.getElementById("day").innerHTML = "Tuesday";
+            document.getElementById("day").textContent = "Tuesday";
             break;
         case 3:
-            document.getElementById("day").innerHTML = "Wednesday";
+            document.getElementById("day").textContent = "Wednesday";
             break;
         case 4:
-            document.getElementById("day").innerHTML = "Thursday";
+            document.getElementById("day").textContent = "Thursday";
             break;
         case 5:
-            document.getElementById("day").innerHTML = "Friday";
+            document.getElementById("day").textContent = "Friday";
             break;
         case 6:
-            document.getElementById("day").innerHTML = "Saturday";
+            document.getElementById("day").textContent = "Saturday";
             break;
         default:
-            document.getElementById("day").innerHTML = "something's wrong";
+            document.getElementById("day").textContent = "something's wrong";
             break;
     }
     
