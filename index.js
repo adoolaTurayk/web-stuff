@@ -1,6 +1,10 @@
 let randNum;
 const t = document;
 
+if (navigator.userAgent.match(/Mobile/)) {
+    document.getElementById('changeMe').innerHTML = "if you're on mobile i suggest you turn on desktop view it is very recommended";
+}
+
 setInterval(() => {
     randNum = Math.floor(Math.random() * 10) + 1
     console.log(randNum)
