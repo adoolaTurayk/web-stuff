@@ -1,18 +1,46 @@
 body{
-    font-size: 75px;
+    font-size: 50px;
     color: rgb(0, 238, 255);
-    font-family:monospace, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family: monospace, sans-serif;
     text-align: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-image: url(favicon.png);
+    background-image: url(Untitled.png);
 }
 #title{
     font-weight: bold;
+    font-size: 75px;
+}
+#links{
+    /**
+        display: grid;
+        grid-template-columns: auto;
+    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    max-width: fit-content;
+    text-align: center;
+    font-size: 75px;
+    font-family: monospace, sans-serif;
+    padding: 15px;
+    background-color: black;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+}
+button:hover{
+    background-color: rgb(32, 32, 32);
+}
+button:active{
+    background-color: rgb(63, 63, 63);
+}
+a:visited{
+    color: white;
 }
