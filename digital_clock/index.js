@@ -33,7 +33,7 @@ setInterval(() => {
             document.getElementById("day").textContent = "Saturday";
             break;
         default:
-            document.getElementById("day").textContent = "something's wrong";
+            document.getElementById("day").textContent = "???? Tf did you do";
             break;
     }
     
