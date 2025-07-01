@@ -9,12 +9,12 @@ function calculate(){
         
         document.getElementById("display").value = eval(document.getElementById("display").value)
 
-        if (document.getElementById("display").value == "NaN"){
-            document.getElementById("display").value = "no / 0 for you"
+        if (document.getElementById("display").value == "Infinity"){
+            document.getElementById("display").value = "Fuck you"
         }
 
         if (document.getElementById("display").value == "undefined"){
-            document.getElementById("display").value = "u didnt write anything"
+            document.getElementById("display").value = "Dude 💔💔"
         }
 
     }catch(error){
