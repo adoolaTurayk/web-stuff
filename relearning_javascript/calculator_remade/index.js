@@ -43,6 +43,7 @@ function evalate(operation){
     catch(error){
         display.value = "Error";
         console.error(error);
+        resultMode = true;
     }
 }
 
