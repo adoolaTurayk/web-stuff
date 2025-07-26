@@ -1,0 +1,20 @@
+#container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+#container label{
+    font-size: 100px;
+    font-family: monospace, sans-serif;
+}
+button{
+    height: 30px;
+    background-color: rgb(89, 166, 255);
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: rgb(29, 135, 255);
+    border-radius: 10px
+}

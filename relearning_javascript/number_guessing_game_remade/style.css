@@ -1,0 +1,37 @@
+#container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(173, 173, 173);
+    font-family: monospace, sans-serif;
+    font-weight: 900;
+}
+#twobuttons{
+    display: flex;
+    flex-direction: row;
+}
+button{
+    border-radius: 5px;
+    border-color: gray;
+    border-style: outset;
+    background-color: rgb(254, 255, 171);
+}
+button:hover{
+    background-color: rgb(253, 255, 112);
+}
+button:disabled{
+    background-color: gray;
+}
+input{
+    border: 3px outset;
+    border-radius: 3px;
+}
+body{
+    background-color: yellowgreen;
+}

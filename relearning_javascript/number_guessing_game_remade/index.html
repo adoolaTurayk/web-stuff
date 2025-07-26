@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>NGG</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="title">Number Guessing Game</h1>
+
+        <input id="max" type="number" placeholder="maximum number">
+        <button onclick="start()" id="begin">Begin</button>
+        <br>
+        <input type="number" placeholder="guess" id="guess" disabled>
+
+        <div id="twobuttons">
+            <button id="check" disabled onclick="checks()">Check</button>
+            <button id="cancel" disabled onclick="cancels()">Go back</button>
+        </div>
+        <h4 id="result">Begin</h4>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
