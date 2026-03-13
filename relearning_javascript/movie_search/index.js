@@ -111,7 +111,7 @@ function displayData(index){
     let pageResults = fullResults.slice(lastResult - moviesInOnePage, lastResult);
     
     pageResults.forEach(({ original_title, release_date, vote_average, poster_path, overview }) => {
-        let year = result.release_date ? new Date(result.release_date).getFullYear() : "N/A";
+        let year = result.release_date ? new Date(release_date).getFullYear() : "N/A";
 
         container.innerHTML += `
         <div class="info-container">
