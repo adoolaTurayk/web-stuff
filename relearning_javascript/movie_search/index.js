@@ -110,16 +110,16 @@ function displayData(index){
 
     let pageResults = fullResults.slice(lastResult - moviesInOnePage, lastResult);
     
-    pageResults.forEach((result) => {
+    pageResults.forEach(({ original_title, release_date, vote_average, poster_path, overview }) => {
         let year = result.release_date ? new Date(result.release_date).getFullYear() : "N/A";
 
         container.innerHTML += `
         <div class="info-container">
-            <h1>${result.original_title + ` (${year})`}</h1>
-            <p class="release">${`Release date: ${result.release_date}`}</p>
-            <span class="rating">${`⭐ Rating: ${result.vote_average} / 10`}</span>
-            <img src="${result.poster_path ? imageBase + result.poster_path : ""}">
-            <p>${result.overview}</p>
+            <h1>${original_title + ` (${year})`}</h1>
+            <p class="release">${`Release date: ${release_date}`}</p>
+            <span class="rating">${`⭐ Rating: ${vote_average} / 10`}</span>
+            <img src="${poster_path ? imageBase + poster_path : ""}">
+            <p>${overview}</p>
         </div>
     `
     })
