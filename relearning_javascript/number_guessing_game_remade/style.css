@@ -27,10 +27,14 @@ button:hover{
 }
 button:disabled{
     background-color: gray;
+    border-style: inset;
 }
 input{
     border: 3px outset;
     border-radius: 3px;
+}
+input:disabled{
+    border-style: inset;
 }
 body{
     background-color: yellowgreen;

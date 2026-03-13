@@ -56,6 +56,12 @@ button:hover{
 button:active{
     background-color: rgb(63, 63, 63);
 }
-a:visited{
-    color: white;
+#links .api{
+    background-color: rgb(255, 0, 0);
+    border-color: black;
+    border-width: 7px;
+    color: black;
+}
+#links .api:hover{
+    background-color: rgb(200, 0, 0);
 }

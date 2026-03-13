@@ -1,0 +1,64 @@
+#container {
+    min-width: fit-content;
+    width: 25%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 25px;
+    min-height: 250px;
+    padding: 15px;
+    background-color: rgb(48, 138, 197);
+}
+button {
+    min-width: 50px;
+    min-height: 50px;
+    font-size: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: rgb(127, 255, 255);
+}
+button:enabled:hover {
+    background-color: rgb(48, 167, 214);
+}
+button:enabled:active {
+    background-color: rgb(30, 146, 182);
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+label {
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#game {
+    border: 5px solid black;
+    border-radius: 10px;
+    min-width: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+#play{
+    font-size: 36px;
+    padding: 10px;
+}
+#score {
+    margin-top: 10px;
+}
+#pScore{
+    color: rgb(0, 255, 0);
+}
+#cScore {
+    color: red;
+}
