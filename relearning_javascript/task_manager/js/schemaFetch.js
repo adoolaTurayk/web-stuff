@@ -1,6 +1,6 @@
 export async function schemaFetch(){
     try{
-        let response = await fetch("../taskschema.json");
+        let response = await fetch("taskschema.json");
 
         if (!response.ok) throw new Error("taskschema.json not found")
 
