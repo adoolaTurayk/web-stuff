@@ -1,0 +1,20 @@
+[
+  {
+    "body": "Finish homework",
+    "date": "2026-03-22",
+    "time": "14:30:00",
+    "finished": false
+  },
+  {
+    "body": "Go to the gym",
+    "date": "2026-03-23",
+    "time": null,
+    "finished": false
+  },
+  {
+    "body": "Read a book",
+    "date": null,
+    "time": null,
+    "finished": true
+  }
+]

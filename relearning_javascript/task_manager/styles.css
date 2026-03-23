@@ -1,0 +1,115 @@
+.taskContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(82, 82, 82);
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    flex-wrap: wrap;
+}
+.taskContainer button {
+    height: auto;
+    max-height: 66px;
+    font-size: large;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 4px;
+}
+.controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.controls button {
+    min-width: 100px;
+    max-height: 50px;
+    width: 110px;
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.deleteButton {
+    background-color: tomato;
+    transition: background-color 0.2s ease;
+}
+.deleteButton:hover {
+    background-color: crimson;
+}
+.finishToggle {
+    background-color: deepskyblue;
+    transition: background-color 0.2s ease;
+}
+.finishToggle:hover {
+    background-color: dodgerblue;
+}
+.upDown {
+    display: flex;
+    flex-direction: column;
+}
+.upDown button {
+    font-size: small;
+    transition: background-color 0.2s ease;
+}
+.upDown button:hover {
+    background-color: rgb(173, 173, 173);
+}
+#formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.importLabel {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.file {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.taskText {
+    word-break: break-word;
+}
+#exportButton {
+    display: none;
+}
+label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.file label { 
+    background-color: gray;
+    border: solid 2px black;
+    font-weight: normal;
+}
+.file label:hover {
+    background-color: rgb(88, 88, 88);
+}
+@media (max-width: 600px) {
+    .taskContainer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .buttonContainer {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .controls {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .controls button {
+        flex: 1;
+        width: 100%;
+    }
+}

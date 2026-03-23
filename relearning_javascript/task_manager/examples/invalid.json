@@ -1,0 +1,17 @@
+[
+  {
+    "body": "Task without finished field",
+    "date": "2026-03-22",
+    "time": "14:30:00"
+  },
+  {
+    "body": "Task with time but no date",
+    "time": "09:00:00",
+    "finished": false
+  },
+  {
+    "body": 12345,
+    "date": "2026-03-23",
+    "finished": true
+  }
+]

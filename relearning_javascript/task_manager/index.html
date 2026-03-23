@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="file">
+        <input type="file" id="import" accept=".json" hidden>
+        <label for="import" class="importLabel">Import tasks</label>
+    </div>
+    <hr>
+    <div id="formContainer">
+        <div>
+            <label for="taskInput">Task: </label>
+            <input type="text" id="taskInput" name="taskInput"><br>
+        </div>
+        <div>
+            <label for="dateInput">Date: </label>
+            <input type="date" id="dateInput" name="dateInput"><br>
+        </div>
+        <div>
+            <label for="timeInput">Time: </label>
+            <input type="time" id="timeInput" name="timeInput"><br><br>
+        </div>
+        <label id="note">The time input will be ignored if there is no date input.</label><br>
+        <button id="submit">Submit</button>
+    </div>
+
+    <div id="container"></div><hr>
+
+    <div class="file">
+        <button onclick="exportTasks()" id="exportButton"></button>
+        <label class="importLabel" for="exportButton">Export Tasks</label>
+    </div>
+
+    <script type="module" src="js/loadAjv.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/buttons.js"></script>
+    <script type="module" src="js/validate.js"></script>
+</body>
+</html>
